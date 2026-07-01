@@ -12,7 +12,6 @@
   - `id-0002`：poison
   - `id-0050`：poison
   - `id-0007`：clean
-- 主要报告：[实验复现.md](./实验复现.md)
 
 ## 目录结构
 
@@ -21,15 +20,12 @@ bait_recurrence/
 ├── BAIT/                                  # BAIT 官方代码及本地低显存适配
 ├── scripts/
 │   └── min_load_test.py                   # 模型加载与短生成测试
-├── 实验复现.md                             # 课程论文式复现实验报告
-├── BAIT Large Language Model Backdoor Scanning by Inverting Attack Target.pdf
-├── 2025-2026-2研究生《深度学习》期末大作业要求.docx
 ├── BAIT-ModelZoo/                         # 本地模型文件，已被 .gitignore 排除
 ├── data/                                  # 数据集缓存，已被 .gitignore 排除
 └── results/                               # 扫描结果缓存，已被 .gitignore 排除
 ```
 
-注意：模型权重、数据集缓存和运行结果日志体积较大，按照项目 `.gitignore` 不提交到 GitHub。关键实验结果已经整理在 `实验复现.md` 中。
+注意：模型权重、数据集缓存和运行结果日志体积较大，按照项目 `.gitignore` 不提交到 GitHub。
 
 ## 开发环境
 
