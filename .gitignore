@@ -8,3 +8,4 @@ BAIT/bait.egg-info/
 **/__pycache__/
 *.pdf
 *.docx
+/实验复现.md
